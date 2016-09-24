@@ -1,0 +1,440 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.1 distribution.
+%   Version 4.1r of REVTeX, August 2010
+%
+%   Copyright (c) 2009, 2010 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.1
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+\documentclass[%
+ reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%showpacs,preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-1}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+%\usepackage{hyperref}% add hypertext capabilities
+\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+\usepackage{color}
+\usepackage{eso-pic} 
+%\AddToShipoutPicture{\resizebox{0.9\paperwidth}{0.9\paperheight}%           
+%{\rotatebox{60}{\color[gray]{0.6}\hspace*{5mm}\textsc{Preliminary Draft (PRIVATE)}}}}
+
+%\usepackage[showframe,%Uncomment any one of the following lines to test 
+%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
+%%text={7in,10in},centering,
+%%margin=1.5in,
+%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
+%%height=10in,a5paper,hmargin={3cm,0.8in},
+%]{geometry}
+
+\begin{document}
+
+\preprint{APS/123-QED}
+
+\title{Measurement of $\pi^{-}$ Inclusive Cross-Section on Argon in the LArIAT Detector}% Force line breaks with \\
+
+
+\author{Author 1,$^{1}$ Author 2,$^{2}$ \\}
+
+\collaboration{ArgoNeuT Collaboration}%\noaffiliation
+
+\affiliation{                                                                 
+\centerline{$^{1}$Institution 1}
+\centerline{$^{2}$Institution 2} 
+}
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+We present the blah blah blah.....
+
+
+\end{abstract}
+
+\pacs{Valid PACS appear here}% PACS, the Physics and Astronomy
+                             % Classification Scheme.
+%\keywords{Suggested keywords}%Use showkeys class option if keyword
+                              %display desired
+\maketitle
+
+%\tableofcontents
+
+%===================================================================
+\section{Introduction}\label{sec:Introduction}
+%===================================================================
+
+
+%===================================================================
+\section{Overview of the Analysis}\label{sec:AnaOverview}
+%===================================================================
+
+
+%===================================================================
+\section{Overiew of the LArIAT Experiment}\label{sec:LArIAT}
+%===================================================================
+
+%===================================================================
+\section{Pion Interaction Cross-Section}\label{sec:PiCrossSection}
+%===================================================================
+
+%===================================================================
+\subsection{Thin slice method}\label{sec:ThinSlice}
+%===================================================================
+
+%===================================================================
+\subsection{Thick Target Method - Slicing the LArTPC in thin targets}
+%===================================================================
+
+%===================================================================
+\section{Event Selection}\label{sec:EventSelection}
+%===================================================================
+
+%===================================================================
+\section{Results}\label{sec:Results}
+%===================================================================
+
+% ======================================================================
+\subsection{Systematic Error}\label{sec:systematics}
+% ======================================================================
+
+
+%===================================================================
+\section{Discussion}
+%===================================================================
+
+
+%===================================================================
+\section{Conclusions}
+%===================================================================
+
+In conclusion, the LArIAT Collaboration reports...
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% ACKNOWLEDGMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\acknowledgments
+
+LArIAT gratefully acknowledges 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% Appendix %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Any appendix necessary} \label{sec:Appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{thebibliography}{99}
+
+%%%% PDG %%%
+\bibitem{PDG}
+	\bibinfo{author}{J. Beringer et al. (Particle Data Group),}
+		\bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{86}}
+		\bibinfo{pages}{010001} (\bibinfo{year}{2012}).
+
+%%% Argon-Bubble Chamber %%%
+\bibitem{ArgonBubble}
+	\bibinfo{author}{S. J. Barish et al.,}
+		\bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{33}}
+		\bibinfo{pages}{448} (\bibinfo{year}{1974}).
+		
+%%% Deuterium Data %%%
+\bibitem{DeutData}
+	\bibinfo{author}{M. Derrick et al.,}
+		\bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{23}}
+		\bibinfo{pages}{569} (\bibinfo{year}{1981}).
+
+%%% Single Pion Measurement %%%
+\bibitem{SingPion}
+	\bibinfo{author}{W. Y. Lee et al.,}
+		\bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{38}}
+		\bibinfo{pages}{202} (\bibinfo{year}{1977}).
+		
+%%% Gargamelle %%%%%
+\bibitem{Garg}
+	\bibinfo{author}{W. Krenz et al. [Gargamelle Neutrino Propane Col-
+laboration and Aachen-Brussels-CERN-Ecole Po],}
+		\bibinfo{journal}{Nucl. Phys. B} \textbf{\bibinfo{volume}{135}}
+		\bibinfo{pages}{45} (\bibinfo{year}{1978}).
+		
+%%% K2K %%%%
+\bibitem{K2K}
+	\bibinfo{author}{S. Nakayama et al. [K2K Collaboration],}
+		\bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{619}}
+		\bibinfo{pages}{255} (\bibinfo{year}{2005}) [arXiv:hep-ex/0408134].
+		
+%%% MiniBooNE Coherent %%%
+\bibitem{MiniBooNECoherent}
+	\bibinfo{author}{A. A. Aguilar-Arevalo et al. [MiniBooNE Collaboration],}
+		\bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{664}}
+		\bibinfo{pages}{41} (\bibinfo{year}{2008}) [arXiv:hep-ex/0803.3423].
+		
+%%% MiniBooNE NCPi0 %%%		
+\bibitem{MiniBooNENCPi0}
+	\bibinfo{author}{A. A. Aguilar-Arevalo et al. [MiniBooNE Collaboration],}
+		\bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{83}}
+		\bibinfo{pages}{052009} (\bibinfo{year}{2011}) [arXiv:hep-ex/1010.3264].
+		
+%%% MiniBooNE NCPi02 %%%		
+\bibitem{MiniBooNENCPi02}
+	\bibinfo{author}{A. A. Aguilar-Arevalo et al. [MiniBooNE Collaboration],}
+		\bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{81}}
+		\bibinfo{pages}{013005} (\bibinfo{year}{2010}) [arXiv:hep-ex/0911.2063].
+		
+
+%%% SciBooNE NCPi0 %%%		
+\bibitem{SciBooNENCPi0}
+	\bibinfo{author}{Y. Kurimoto et al. [SciBooNE Collaboration],}
+		\bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{81}}
+		\bibinfo{pages}{033004} (\bibinfo{year}{2010}) [arXiv:hep-ex/0910.5768].
+		
+%%% K2K NCPi0 %%%
+\bibitem{K2KNCPi0}
+	\bibinfo{author}{Hasegawa, M. et al. [K2K Collaboration],}
+		\bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{619}}
+		\bibinfo{pages}{255-262} (\bibinfo{year}{2005}) [arXiv:hep-ex/0408134].
+
+		
+%%% CP Theory %%%		
+\bibitem{CPTheory}
+	\bibinfo{author}{M. Freund,}
+		\bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{64}}
+		\bibinfo{pages}{053003} (\bibinfo{year}{2001}) [arXiv:hep-ph/0103300].
+
+		
+%%% MircroBooNE TDR %%%
+\bibitem{MicroBooNE}
+	\bibinfo{author}{The MicroBooNE Technical Design Report[MicroBooNE Collaboration],}
+		\bibinfo{journal}{\url{http://www-microboone.fnal.gov/publications/TDRCD3.pdf}} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{} (\bibinfo{year}{2012}).
+		
+%%% LAr1-ND Proposal %%%
+\bibitem{LAr1ND}
+	\bibinfo{author}{C. Adams et al. [LAr1-ND Collaboration],}
+		\bibinfo{journal}{arXiv:hep-ex/1309.7987} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{} (\bibinfo{year}{2013}).
+		
+%%% SBN Proposal
+\bibitem{ICARUSSBND}
+	\bibinfo{author}{R. Acciarri  et al. [SBN Program],}
+		\bibinfo{journal}{arXiv:hep-ex/1503.01520} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{} (\bibinfo{year}{2015}).
+		
+%%% LBNE Proposal %%%
+\bibitem{LBNE}
+	\bibinfo{author}{C. Adams et al. [LBNE Collaboration],}
+		\bibinfo{journal}{arXiv:hep-ex/1307.7335} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{} (\bibinfo{year}{2013}).
+				
+%%% LArTPC's %%%
+\bibitem{LArTPC}
+	\bibinfo{author}{C. Rubbia,}
+		\bibinfo{journal}{CERN-EP/77-08} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{} (\bibinfo{year}{1977}).
+
+%%% ICARUS %%%%
+\bibitem{ICARUS}
+	\bibinfo{author}{ICARUS Collaboration,}
+		\bibinfo{journal}{Journal of Instrumentation} \textbf{\bibinfo{volume}{6 P07011}}
+		\bibinfo{pages}{} (\bibinfo{year}{2011}).
+		
+%%% Neutrino 2014 %%%
+\bibitem{Nu2014}
+	\bibinfo{author}{A. Szelc,}
+		\bibinfo{journal}{``Results from and Status of ArgoNeuT and MicroBooNE'' presentation at Neutrino 2014} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{\url{https://indico.fnal.gov/getFile.py/access?contribId=294&sessionId=25&resId=0&materialId=slides&confId=8022}} (\bibinfo{year}{2014}).		
+
+%%% ICARUS Pi0 %%%%
+\bibitem{ICARUSPi0}
+	\bibinfo{author}{ICARUS Collaboration,}
+		\bibinfo{journal}{Acta Phys. Polon} \textbf{\bibinfo{volume}{B41}}
+		\bibinfo{pages}{103-125} (\bibinfo{year}{2010}).
+
+%%% LSND %%%%
+\bibitem{LSND}
+	\bibinfo{author}{C. Athanassopoulos et al.,}
+		\bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{75}}
+		\bibinfo{pages}{2650} (\bibinfo{year}{1995});
+	%\bibinfo{author}{C. Athanassopoulos et al.,}
+		\bibinfo{journal}{} \textbf{\bibinfo{volume}{77}}
+		\bibinfo{pages}{3082} (\bibinfo{year}{1996});
+	%\bibinfo{author}{C. Athanassopoulos et al.,}
+		\bibinfo{journal}{} \textbf{\bibinfo{volume}{81}}
+		\bibinfo{pages}{1774} (\bibinfo{year}{1998});
+	%\bibinfo{author}{C. Athanassopoulos et al.,}
+		\bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{58}}
+		\bibinfo{pages}{2489} (\bibinfo{year}{1998});
+	\bibinfo{author}{ A. Aguilar et al.,}
+		\bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{64}}
+		\bibinfo{pages}{112007} (\bibinfo{year}{2001}).
+
+%%% MiniBooNE %%%
+\bibitem{MiniBooNE}
+	\bibinfo{author}{A. A. Aguilar-Arevalo et al. [MiniBooNE Collaboration],}
+		\bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{110}}
+		\bibinfo{pages}{161801} (\bibinfo{year}{2013}).
+		
+%%% GENIE %%%
+\bibitem{GENIE}
+	\bibinfo{author}{ C. Andreopoulos et al.,}
+		\bibinfo{journal}{Nucl. Instr. $\&$ Meth. A} \textbf{\bibinfo{volume}{506}}
+		\bibinfo{pages}{250} (\bibinfo{year}{2003}) Version 2.8.0 was used for this analysis .	
+
+%%% NuWro %%%
+\bibitem{NuWro}
+	\bibinfo{author}{T. Golan, C. Juszczak and J. T. Sobczy,}
+		\bibinfo{journal}{Phys. Rev. C} \textbf{\bibinfo{volume}{86}}
+		\bibinfo{pages}{015505} (\bibinfo{year}{2012}) We use version 11m for this analysis.	
+		
+%%% ArgoNeuT TDR %%%
+\bibitem{ArgoNeuT}
+	\bibinfo{author}{C. Anderson et al,}
+		\bibinfo{journal}{JINST Vol} \textbf{\bibinfo{volume}{7}}
+		\bibinfo{pages}{P10019} (\bibinfo{year}{2012}).	
+		
+%%% NUMI Beam %%%
+\bibitem{NUMI}
+	\bibinfo{author}{ K. Anderson et al.,}
+		\bibinfo{journal}{FERMILAB-DESIGN-1998-01} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{} (\bibinfo{year}{1998}).
+		
+%%% CC-Inclusive Paper %%
+\bibitem{CCInclusive}
+	\bibinfo{author}{R. Acciarri et al,}
+		\bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{89}}
+		\bibinfo{pages}{112003} (\bibinfo{year}{2014}).
+		
+		
+%%% MINOS-ND %%%
+\bibitem{MINOSND}
+	\bibinfo{author}{ D.G. Michael et al. [MINOS Collaboration],}
+		\bibinfo{journal}{Nucl. Instr. $\&$ Meth. A} \textbf{\bibinfo{volume}{596}}
+		\bibinfo{pages}{190} (\bibinfo{year}{2008}).
+		
+%%% LArSoft %%%
+\bibitem{larsoft}
+	\bibinfo{author}{E. Church,}
+		\bibinfo{journal}{arXiv:1311.6774} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{} (\bibinfo{year}{2013}).
+
+%%% GEANT4 %%%
+\bibitem{geant4}
+	\bibinfo{author}{ S. Agostinelli et al.,}
+		\bibinfo{journal}{Nucl. Instr. $\&$ Meth. A} \textbf{\bibinfo{volume}{506}}
+		\bibinfo{pages}{250} (\bibinfo{year}{2003}).
+
+%%% GEANT3 %%%
+\bibitem{geant3}
+	\bibinfo{author}{ Application Software Group,}
+		\bibinfo{journal}{CERN Program Library Long Writeup} \textbf{\bibinfo{volume}{}}
+		\bibinfo{pages}{W5013,CERN} (\bibinfo{year}{1994}).
+		
+%%% Coherent Paper %%
+\bibitem{Coherent}
+	\bibinfo{author}{R. Acciarri et al,}
+		\bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{113}}
+		\bibinfo{pages}{261801} (\bibinfo{year}{2014}).
+		
+		
+%%% LAr EMCalo %%%
+\bibitem{SlacLArEM}
+	\bibinfo{author}{Hitlin, D. et al.,}
+		\bibinfo{journal}{Nucl. Instrum. Meth.}\textbf{\bibinfo{volume}{137}}
+		\bibinfo{pages}{225} (\bibinfo{year}{1976}).
+		
+
+%%% FNAL EMCalo %%%%
+\bibitem{FNALLArEM}
+	\bibinfo{author}{Nelson, C. et al.,}
+		\bibinfo{journal}{Nucl. Instrum. Meth.} \textbf{\bibinfo{volume}{216}}
+		\bibinfo{pages}{381} (\bibinfo{year}{1983}).
+
+
+\end{thebibliography}
+
+
+
+
+\end{document}
+%
+% ****** End of file apssamp.tex ******
+
+%Table \ref{tab:PhoTrackletSinglePart} is a summary of a single particle Monte Carlo study done in the ArgoNeuT detector demonstrating impact of each of these requirements on the small tracks formed in the event. For each particle species ($\mu, \gamma, \pi^{+}, p, e, \pi^{0}$) only events with two or more small tracks passing each of the requirements is recorded. In the end, the selection chosen is shown to be $\sim 50\%$ efficient for single particle $\pi^{0}$ while rejecting the majority of other single particle species. The dominant single particle process that passes all these preliminary cuts is single particle electron followed by single photon. However, both of these background are shown to be rejected later by subsequent shower reconstruction.
+
+
+%\begin{widetext}
+%\begin{center}
+%\begin{table}[htb]
+%	\begin{center}
+	%\resizebox{0.45\textwidth}{!}{%
+%	\begin{tabular}{|c|c|c|c|c|c|}
+%	\hline
+%	\multicolumn{6}{|c|}{\textbf{Small Track Selection Requirements}} \\
+%	\hline \hline
+%	 \textbf{Particle} & Two or more small tracks &Particle ID& Start Point $\&$ & Tracklet dE/dX & Nearest Neighbor      \\
+%	 &  reconstructed &  &  End Point Matching  & $\geq$ 3.5 MeV & Cluster Matching \\
+%	\hline
+%	$\mu$ & 180  & 147  & 100 & 33 & 18  \\
+%	\hline
+%	$\gamma$ & 1,425  & 1,397  & 1,255 & 1,063 & 723  \\
+%	\hline
+%	$\pi^{+}$ & 738  & 608  & 473 & 186 & 103 \\
+%	\hline
+%	p & 232  & 170 & 130 & 59 & 22 \\
+%	\hline
+%	e & 1,711  & 1,677 & 1,526 & 1,299 & 804 \\
+%	\hline
+%	$\pi^{0}$ & 1,624 & 1,586 & 1,471 & 1,261 & 1,113 \\
+%	\hline
+%	\end{tabular}%}
+%	\caption{Summary of the small track selection requirement for single particle Monte Carlo. Two thousand single particle events for each particle type were simulated in the ArgoNeuT detector and analyzed. The numbers in this table represent the number of events with two or more small tracks present in the event surviving the application of each selection requirement.} \label{tab:PhoTrackletSinglePart}
+%	\end{center}
+%\end{table}
+%\end{center}
+
+%\end{widetext}
